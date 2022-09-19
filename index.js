@@ -26,12 +26,12 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
 
-
-
 router.get("/", (req,res)=>{
   res.send("Holo");
 });
 
+
+///METODOS///
 
 //Agregar un documento
 router.post("/p", (req, res) => {
